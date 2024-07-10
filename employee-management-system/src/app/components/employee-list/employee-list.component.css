@@ -1,0 +1,42 @@
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+  }
+  
+  th, td {
+	padding: 12px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+	background-color: #f2f2f2;
+	font-weight: bold;
+  }
+  
+  .btn-add, .btn-view, .btn-edit, .btn-delete {
+	display: inline-block;
+	padding: 8px 12px;
+	margin: 4px;
+	text-decoration: none;
+	color: white;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  .btn-add {
+	background-color: #4CAF50;
+  }
+  
+  .btn-view {
+	background-color: #2196F3;
+  }
+  
+  .btn-edit {
+	background-color: #FFC107;
+  }
+  
+  .btn-delete {
+	background-color: #F44336;
+  }

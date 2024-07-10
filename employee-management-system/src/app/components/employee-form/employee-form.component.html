@@ -1,0 +1,29 @@
+<h2>{{ isEditMode ? 'Edit Employee' : 'Add New Employee' }}</h2>
+<form (ngSubmit)="onSubmit()">
+  <div>
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" name="firstName" [(ngModel)]="employee.firstName" required>
+  </div>
+  <div>
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" name="lastName" [(ngModel)]="employee.lastName" required>
+  </div>
+  <div>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" [(ngModel)]="employee.email" required>
+  </div>
+  <div>
+    <label for="phoneNumber">Phone Number:</label>
+    <input type="tel" id="phoneNumber" name="phoneNumber" [(ngModel)]="employee.phoneNumber" required>
+  </div>
+  <div>
+    <label for="position">Position:</label>
+    <input type="text" id="position" name="position" [(ngModel)]="employee.position" required>
+  </div>
+  <div>
+    <label for="department">Department:</label>
+    <input type="text" id="department" name="department" [(ngModel)]="employee.department" required>
+  </div>
+  <button type="submit">{{ isEditMode ? 'Update' : 'Create' }}</button>
+  <a routerLink="/employees" class="btn-cancel">Cancel</a>
+</form>

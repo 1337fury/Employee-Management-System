@@ -1,0 +1,32 @@
+.employee-info {
+	background-color: #f9f9f9;
+	padding: 20px;
+	border-radius: 8px;
+	margin-bottom: 20px;
+  }
+  
+  .employee-info p {
+	margin: 10px 0;
+  }
+  
+  .actions {
+	margin-top: 20px;
+  }
+  
+  .btn-edit, .btn-back {
+	display: inline-block;
+	padding: 8px 12px;
+	margin: 4px;
+	text-decoration: none;
+	color: white;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  .btn-edit {
+	background-color: #FFC107;
+  }
+  
+  .btn-back {
+	background-color: #607D8B;
+  }

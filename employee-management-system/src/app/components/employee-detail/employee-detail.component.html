@@ -1,0 +1,14 @@
+<div *ngIf="employee">
+	<h2>Employee Details</h2>
+	<div class="employee-info">
+	  <p><strong>Name:</strong> {{ employee.firstName }} {{ employee.lastName }}</p>
+	  <p><strong>Email:</strong> {{ employee.email }}</p>
+	  <p><strong>Phone Number:</strong> {{ employee.phoneNumber }}</p>
+	  <p><strong>Position:</strong> {{ employee.position }}</p>
+	  <p><strong>Department:</strong> {{ employee.department }}</p>
+	</div>
+	<div class="actions">
+	  <a [routerLink]="['/employees', employee.id, 'edit']" class="btn-edit">Edit</a>
+	  <a routerLink="/employees" class="btn-back">Back to List</a>
+	</div>
+  </div>
