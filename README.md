@@ -1,5 +1,7 @@
 # Employee Management System
 
+<img src="https://dl.dropbox.com/scl/fi/6a8kifb0d1urh4qsmq33i/employee-management-system-abdelhalim.png?rlkey=w6rxti674hoqrilu2jwjifux1&st=z9ztngrp&dl=0" alt="app demo image" />
+
 ## Project Overview
 
 This Employee Management System is a full-stack application built with a .NET 8 API backend and an Angular frontend. It provides CRUD (Create, Read, Update, Delete) operations for managing employee data.
