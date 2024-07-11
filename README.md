@@ -11,7 +11,6 @@ This Employee Management System is a full-stack application built with a .NET 8 
 	- [Table of Contents](#table-of-contents)
 	- [Project Structure](#project-structure)
 		- [Backend (.NET 8 API)](#backend-net-8-api)
-		- [Backend (.NET 8 API)](#backend-net-8-api-1)
 		- [Frontend (Angular)](#frontend-angular)
 	- [Technology Stack](#technology-stack)
 	- [Design Decisions](#design-decisions)
@@ -22,10 +21,6 @@ This Employee Management System is a full-stack application built with a .NET 8 
 	- [Future Improvements](#future-improvements)
 
 ## Project Structure
-
-The project is divided into two main parts:
-
-### Backend (.NET 8 API)
 
 The project is divided into two main parts:
 
